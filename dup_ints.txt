@@ -1,0 +1,36 @@
+Duplicate Integer
+
+Given an integer array nums, return true if any value appears more than 
+once in the array, otherwise return false.
+
+Example 1:
+Input: nums = [1, 2, 3, 3]
+Output: true
+
+Example 2:
+Input: nums = [1, 2, 3, 4]
+Output: false
+
+
+Add all elements the list o(n)
+
+Hash function allows lookup time to be o(1)
+tradeoff - memory complexity o(n) 
+
+Data strucutres like array,arraylist are index based
+If index is known lookup will be o(1) but in this case, we do not
+we have to lookup by elements and that will be a linear search o(n)
+
+Both hashmap and hashset works but hashmap takes more space by storing 
+key-value pair, hashset only take in elements.
+
+Array Space Complexity: O(1)
+Fixed Size: An array’s space complexity is O(1) because it uses a 
+fixed amount of space regardless of the number of elements it holds. 
+When you declare an array, you allocate a specific amount of memory 
+for it.
+
+HashMap Space Complexity: O(n)
+Dynamic Size: A HashMap’s space complexity is O(n) because it grows 
+dynamically with the number of key-value pairs it stores. Each new 
+entry (key-value pair) requires additional space.
