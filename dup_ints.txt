@@ -12,10 +12,10 @@ Input: nums = [1, 2, 3, 4]
 Output: false
 
 
-Add all elements the list o(n)
+Add all elements the list O(n)
 
-Hash function allows lookup time to be o(1)
-tradeoff - memory complexity o(n) 
+Hash function allows lookup time to be O(1)
+tradeoff - memory complexity O(n) 
 
 Data strucutres like array,arraylist are index based
 If index is known lookup will be o(1) but in this case, we do not
