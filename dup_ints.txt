@@ -12,6 +12,7 @@ Input: nums = [1, 2, 3, 4]
 Output: false
 
 
+
 Add all elements the list O(n)
 
 Hash function allows lookup time to be O(1)
