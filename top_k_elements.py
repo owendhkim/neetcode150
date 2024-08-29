@@ -16,7 +16,7 @@ class Solution:
             last_element = key_list_sorted_by_values.pop()
             ans.append(last_element)
         return ans
-    # time complexity = O(nlogn) because of sorting and popping
+    # time complexity = O(nlogn) because of sorting
     
     def topKFrequent2(self, nums: List[int], k: int) -> List[int]:
         hm = {}
